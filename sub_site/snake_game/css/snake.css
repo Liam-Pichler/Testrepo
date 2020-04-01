@@ -1,0 +1,93 @@
+  body {
+   margin: 0;
+   padding: 0;
+   background: -webkit-linear-gradient(left, #25c481, #25b7c4);
+    background: linear-gradient(to right, #25c481, #25b7c4);
+    }
+
+#splashScreen {
+   width: 100vw;
+   height: 100%;
+   position: fixed;
+   top: 0;
+   left: 0;
+   z-index: 10;
+   background: url("../img/Menu.png");
+   background-repeat: repeat;
+   background-size: 100% 100%;
+   background-color: #60c940;
+   font-size: 48px;
+}
+#endScreen {
+   width: 100vw;
+   height: 100%;
+   position: fixed;
+   top: 0;
+    left: 0;
+    z-index: 10;
+    background-color: #60c940;
+    background-size: 100% 100%;
+    font-size: 48px;
+    display: none;
+    text-align: center;
+}
+#endScreen h2{
+    font-family: sans-serif;
+}
+#splashScreen h1{
+  margin-top: 100px;
+  text-align: center;
+}
+
+
+#start{
+  border: 3px #000 solid;
+  width: 93px;
+  margin: 0 auto 0 auto;
+  padding: 30px;
+  border-radius: 10%;
+  cursor: pointer;
+  background: white;
+  transition: border 0.5s, background 0.5s, transform 0.5s;
+  font-family: sans-serif;
+}
+
+#start:hover{
+  background-color: #A5FF8A;
+  border: 3px white solid;
+  -ms-transform: scale(1.2);
+ -webkit-transform: scale(1.2);
+ transform: scale(1.2);
+}
+
+#time{
+  font-size: 300px;
+  text-align: center;
+  margin-top: 11%;
+}
+canvas {
+    display: block;
+    position: absolute;
+    border: 1px solid #000;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+  }
+
+#replay {
+  border: 2px solid black;
+}
+
+
+@keyframes moment-on {
+   from {opacity: 1;}
+   10% {opacity: 0.1;}
+   to {opacity: 0;}
+}
+
+@keyframes moment-off {
+   from {opacity: 0;}
+   to {opacity: 1;}
+}

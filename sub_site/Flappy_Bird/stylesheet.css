@@ -1,0 +1,33 @@
+html {
+  background-color: lightblue;
+  font-family: sans-serif;
+}
+
+canvas {
+  border: 10px solid black;
+  border-radius: 10%;
+}
+
+h1 {
+  font-size: 100px;
+}
+
+.button {
+  background-color: yellow;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 10%;
+  font-size: 50px;
+  font-weight: bold;
+  color: black;
+  transition: padding 0.5s, font 0.5s;
+}
+
+.button:hover {
+  padding: 20px;
+  font-size: 60px;
+}
+
+a {
+  text-decoration: none;
+}
